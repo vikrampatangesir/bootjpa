@@ -4,10 +4,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BootjpaApplication {
+public class BootjpaApplication 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		SpringApplication.run(BootjpaApplication.class, args);
+		System.out.println("inside main class");
+		
+		
 	}
 
 }
